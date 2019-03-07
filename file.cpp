@@ -13,3 +13,14 @@ class student
 			
 		
 };
+void student::input()
+{
+	cout<<"Enter Name:";
+	cin>>name;
+	cout<<"Enter Regdno.:";
+	cin>>regd;
+	cout<<"Enter Branch:";
+	cin>>branch;
+	cout<<"Enter Sem:";
+	cin>>sem;
+}
