@@ -24,3 +24,10 @@ void student::input()
 	cout<<"Enter Sem:";
 	cin>>sem;
 }
+void student::display()
+{
+	cout<<"\nName:"<<name;
+	cout<<"\nRegdno.:"<<regd;
+	cout<<"\nBranch:"<<branch;
+	cout<<"\nSem:"<<sem;
+}
