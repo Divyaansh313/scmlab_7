@@ -24,3 +24,9 @@ void student::input()
 	cout<<"Enter Sem:";
 	cin>>sem;
 }
+int main()
+{
+	student s;
+	s.input();
+	s.display();
+}
